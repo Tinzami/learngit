@@ -1,0 +1,12 @@
+mkdir 创建文件夹
+cd  进入文件夹
+pwd 显示目录
+git init 创建git仓库
+git add readme.txt 告诉git，把文件添加进仓库
+git commit -m "  "  提交到仓库
+git status  命令可以让我们时刻掌握仓库当前的状态
+git diff          顾名思义就是查看difference，看修改具体内容
+git log          命令显示从最近到最远的提交日志  加上--pretty=oneline参数：显示在一行
+git reset --hard HEAD^  返回上一个版本
+git reset --hard 1094a   回到指定版本号版本
+git reflog                  用来记录你的每一次命令：

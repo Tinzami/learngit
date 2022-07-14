@@ -10,3 +10,5 @@ git log          命令显示从最近到最远的提交日志  加上--pretty=o
 git reset --hard HEAD^  返回上一个版本
 git reset --hard 1094a   回到指定版本号版本
 git reflog                  用来记录你的每一次命令：
+git checkout -- file   可以丢弃工作区的修改：
+git reset HEAD <file>  可以把暂存区的修改撤销掉（unstage），重新放回工作区：

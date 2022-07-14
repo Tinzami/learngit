@@ -12,3 +12,4 @@ git reset --hard 1094a   回到指定版本号版本
 git reflog                  用来记录你的每一次命令：
 git checkout -- file   可以丢弃工作区的修改：
 git reset HEAD <file>  可以把暂存区的修改撤销掉（unstage），重新放回工作区：
+git rm               用于删除一个文件
